@@ -1,0 +1,17 @@
+{
+  "name": "workerA",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon worker.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bull": "^4.2.0",
+    "ioredis": "^4.28.2",
+    "mongoose": "^6.1.3"
+  }
+}
